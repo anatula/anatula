@@ -1,16 +1,12 @@
-## Hi there 👋
+## 🖥️ console.log(i18n.__('Hello')) // Outputs: Hello | Hola | Ciao
 
-<!--
-**anatula/anatula** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Computer Engineer | I'm Ana, a lifelong learner fueled by curiosity. I love building and fixing things—whether it's code, containers, or clusters. Passionate about cloud, Docker & Kubernetes and coding JS. Always evolving 👩🏻‍💻. Currently diving into the OpenTelemetry 🔭 world!
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+🐦 Find me on X (Twitter): [@TulaAna](https://x.com/TulaAna)
+```
+languages.configure({
+  locales: ['en', 'es', 'it'],
+  defaultLocale: 'en',
+  directory: __dirname + '/locales',
+});
+```
